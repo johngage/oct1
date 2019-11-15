@@ -1,6 +1,6 @@
 # Requirements for the demo notebooks
 # Useful for MyBinder configuration
-3.7
+3.65
 pandas
 numpy
 #datascience
