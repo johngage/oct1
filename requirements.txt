@@ -1,6 +1,7 @@
 # Requirements for the demo notebooks
 # Useful for MyBinder configuration
-3.65
+[tool.netlify]
+python = "3.7"
 pandas
 numpy
 #datascience
