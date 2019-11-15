@@ -2,7 +2,7 @@
 # Useful for MyBinder configuration
 pandas
 numpy
-datascience
+#datascience
 folium
 matplotlib
 nbinteract
