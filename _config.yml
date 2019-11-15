@@ -22,8 +22,8 @@ email: john.gage@berkeley.edu
 description: >-
   Materials relevant to Sudan water resources
 
-baseurl: /oct1 # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: https://johngage.github.io                # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ''              # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+url: https://darfur.netify.com # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
@@ -36,7 +36,7 @@ footer_text: This page was created by <a href="https://github.com/jupyter/jupyte
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
-textbook_logo: images/logo/wheel16.svg              # A logo to be displayed at the top of your textbook sidebar. Should be square
+textbook_logo: images/logo/wheel16.svg            # A logo to be displayed at the top of your textbook sidebar. Should be square
 textbook_logo_link: https://jupyter.org/jupyter-book/                    # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://github.com/jupyter/jupyter-book">Jupyter
   Book</a>

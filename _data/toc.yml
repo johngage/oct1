@@ -22,9 +22,11 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Page One
+- title: Darfur Resources
   url: /page1
   not_numbered: true
+
+- divider: true
 
 # New material
 - title: overview
