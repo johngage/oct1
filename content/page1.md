@@ -8,7 +8,7 @@ function toggleDiv(divId) {
 <head>
 
 
-# Darfur Water resources #
+# Darfur Water Resources near Al Jalal #
 ### A list of entities responsible for 2000 boreholes in North and East Darfur ###
 
 
@@ -17,7 +17,7 @@ function toggleDiv(divId) {
 <a href="javascript:toggleDiv('myContent');" style="background-color: #ccc; padding: 5px 10px;">->> Rewording</a>
 
 
-<div id="myContent" style="background-color: purple; padding: 5px 10px;">
+<div id="myContent" style="background-color: red; padding: 5px 10px;">
 To create a Jupyter Book, you use the <strong>jupyter-book</strong> package you installed in the previous step.
 
 </div>
