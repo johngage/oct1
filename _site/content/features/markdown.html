@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
 
-  <title>Search the site</title>
-  <meta name="description" content="        ">
+  <title>Creating book content</title>
+  <meta name="description" content="# Creating book contentThe two kinds of files that contain course content are:* Jupyter Notebooks* Markdown filesEach are contained in the `content/` folder ...">
 
-  <link rel="canonical" href="https://darfur.netify.com/search">
+  <link rel="canonical" href="https://darfur.netify.com/content/features/markdown.html">
   <link rel="alternate" type="application/rss+xml" title="Sudanese water resources in Darfur" href="https://darfur.netify.com/feed.xml">
 
-  <meta property="og:url"         content="https://darfur.netify.com/search" />
+  <meta property="og:url"         content="https://darfur.netify.com/content/features/markdown.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="Search the site" />
-<meta property="og:description" content="        " />
+<meta property="og:title"       content="Creating book content" />
+<meta property="og:description" content="# Creating book contentThe two kinds of files that contain course content are:* Jupyter Notebooks* Markdown filesEach are contained in the `content/` folder ..." />
 <meta property="og:image"       content="https://darfur.netify.com/images/logo/wheel16.svg" />
 
 <meta name="twitter:card" content="summary">
@@ -24,11 +24,11 @@
   {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "https://darfur.netify.com/search",
-  "headline": "Search the site",
+  "mainEntityOfPage": "https://darfur.netify.com/content/features/markdown.html",
+  "headline": "Creating book content",
   "datePublished": "2019-11-15T16:00:54-08:00",
   "dateModified": "2019-11-15T16:00:54-08:00",
-  "description": "        ",
+  "description": "# Creating book contentThe two kinds of files that contain course content are:* Jupyter Notebooks* Markdown filesEach are contained in the `content/` folder ...",
   "author": {
     "@type": "Person",
     "name": "John Gage"
@@ -583,31 +583,53 @@ initFunction(initPrint)
 
       <main class="c-textbook__page" tabindex="-1">
             <div class="c-textbook__content" id="textbook_content">
-              <div class="search-content__inner-wrap">
-    <input type="text" id="lunr_search" class="search-input" tabindex="-1" placeholder="'Enter your search term...''" />
-    <div id="results" class="results"></div>
-</div>
+              <h1 id="creating-book-content">Creating book content</h1>
 
-<script>
-    // Add the lunr store since we will now search it
-    var store = [{
-        "title": "overview",
-        
-        "excerpt":
-            "Overview Gage, J., &amp; others. (2019). First Major paper about Water. Holdgraf, C. R., de Heer, W., Pasley, B. N., &amp; Knight, R. T. (2014). Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia: Frontiers in Neuroscience. Holdgraf, C. R., de Heer, W., Pasley, B. N., Rieger, J. W., Crone, N., Lin, J. J., … Theunissen, F. E. (2016). Rapid tuning shifts in human auditory cortex enhance speech intelligibility. Nature Communications, 7(May), 13654. https://doi.org/10.1038/ncomms13654 Holdgraf, C. R., Culich, A., Rokem, A., Deniz, F., Alegro, M., &amp; Ushizima, D. (2017). Portable learning environments...",
-        "categories": [],
-        "tags": [],
-        "url": "https://darfur.netify.com/overview/overview.html",
-        "teaser":null},{
-        "title": "Darfur Resources",
-        
-        "excerpt":
-            "              Darfur Water resources  A list of entities responsible for 2000 boreholes in North and East Darfur   Radar Technologies: Dr. Alain Gachet Relief International: Dr. Wali Abdelsalam ->> Rewording   To create a Jupyter Book, you use the jupyter-book package you installed in the previous step.             ",
-        "categories": [],
-        "tags": [],
-        "url": "https://darfur.netify.com/page1.html",
-        "teaser":null},]
-</script>
+<p>The two kinds of files that contain course content are:</p>
+
+<ul>
+  <li>Jupyter Notebooks</li>
+  <li>Markdown files</li>
+</ul>
+
+<p>Each are contained in the <code class="highlighter-rouge">content/</code> folder and referenced from <code class="highlighter-rouge">_data/toc.yml</code>.</p>
+
+<p>If the file is markdown, it will be copied over with front-matter YAML added so
+that Jekyll can parse it</p>
+
+<h2 id="sidebars-with-jekyll">Sidebars with Jekyll</h2>
+
+<p>You may notice that there’s a sidebar to the right (if your screen is wide enough).
+These are automatically generated from the headers that are present in your page.
+The sidebar will automatically capture all 2nd and 3rd level section headers.
+The best way to designate these headers is with <code class="highlighter-rouge">#</code> characters at the beginning
+of a line.</p>
+
+<h3 id="heres-a-third-level-header">Here’s a third-level header</h3>
+
+<p>This section is here purely to demonstrate the third-level header of the
+rendered page!</p>
+
+<h2 id="embedding-media">Embedding media</h2>
+
+<h3 id="adding-images">Adding images</h3>
+
+<p>You can reference external media like images from your markdown file. If you use
+relative paths, then they will continue to work when the markdown files are copied over,
+so long as they point to a file that’s inside of the repository.</p>
+
+<p>Here’s an image relative to the site root</p>
+
+<p><img src="/content/images/C-3PO_droid.png" alt="" /></p>
+
+<h3 id="adding-movies">Adding movies</h3>
+
+<p>You can even embed references to movies on the web! For example, here’s a little gif for you!</p>
+
+<p><img src="https://media.giphy.com/media/yoJC2A59OCZHs1LXvW/giphy.gif" alt="" /></p>
+
+<p>This will be included in your website when it is built.</p>
+
             </div>
             <nav class="c-page__nav">
   
