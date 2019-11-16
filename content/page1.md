@@ -12,7 +12,7 @@ function toggleDiv(divId) {
 ### A list of entities responsible for 2000 boreholes in North and East Darfur ###
 
 
-- Radar Technologies: Alain Gachet
+- Radar Technologies: Dr. Alain Gachet
 - Relief International: Dr. Wali Abdelsalam
 <a href="javascript:toggleDiv('myContent');" style="background-color: #ccc; padding: 5px 10px;">->> Rewording</a>
 
