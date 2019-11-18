@@ -25,7 +25,10 @@
 - title: Darfur Resources
   url: /page1
   not_numbered: true
-
+- title: Page 2
+  url: /page2
+  not_numbered: true
+  
 - divider: true
 
 # New material
