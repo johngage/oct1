@@ -17,7 +17,7 @@ function toggleDiv(divId) {
 <a href="javascript:toggleDiv('myContent');" style="background-color: #ccc; padding: 5px 10px;">->> Rewording</a>
 
 
-<div id="myContent" style="background-color: red; padding: 5px 10px;">
+<div id="myContent" style="background-color: green; padding: 5px 10px;">
 To create a Jupyter Book, you use the <strong>jupyter-book</strong> package you installed in the previous step.
 
 </div>
