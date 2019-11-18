@@ -13,7 +13,7 @@ function toggleDiv(divId) {
 
 
 - Radar Technologies: Dr. Alain Gachet
-- Relief International: Dr. Wali Abdelsalam
+- Relief International is big: Dr. Wali Abdelsalam
 <a href="javascript:toggleDiv('myContent');" style="background-color: #ccc; padding: 5px 10px;">->> Rewording</a>
 
 
